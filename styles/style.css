@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Oswald:wght@500;700&family=Roboto+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Oswald:wght@500;700&family=Patua+One&family=Roboto+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+body{
+    background:whitesmoke;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background:rgb(43, 40, 40);
+    height: 85px;
+}
+.container img{
+    width: 120px;
+    height: 110px;
+    display: flex;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    }
+.menu li{
+    letter-spacing: 3px;
+    margin-left: 20px;  
+     
+ }
+ li a{
+    color: rgb(233, 233, 233);
+    font-family:'Kanit', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+ }
+ nav h1{
+    font-family: 'Patua One',Arial;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(133, 161, 192);
+    font-size: 25px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+ }
+ .aba{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(131, 131, 131);
+    display: flex;
+    background-color: rgb(133, 161, 192);
+    
+ }
+ .pesquisa img{
+     width: 21px;
+     height: 21px;
+     margin-top: 7px;
+     margin-left: 2px;
+ }
+ .pesquisa{
+    margin-left: 5%;
+    margin-top: 7px;
+    display: flex;
+    margin-left: 20px;
+    width: 290px;
+    height: 30px;
+    
+ }
+ .pesquisa input{
+    border-radius:40px;
+    border-color: rgb(160, 180, 206);
+    width: 290px;
+ }
+ .pesquisa button{
+     width: 3px;
+     height: 3px;
+ }
+.navegacao li{
+    text-decoration: none;
+    display: inline;
+    letter-spacing: 3px;
+    margin-left: 70px;
+}
+.navegacao{
+    margin-left: 30%;
+
+}
+.navegacao a{
+    font-size: 15px;
+    color: rgb(32, 32, 32);;
+}
+.introducao{
+    position: absolute;
+    left: 4%;
+    top: 28%;
+    font-size: 14px;
+    font-family:'PT Serif', serif;
+    color: rgb(43, 41, 41);
+    text-shadow: .1em 0.1em 0.2em whitesmoke
+}
+.lugares{
+    text-align: left;
+    position: absolute;
+    top: 48%;
+    left: 10%;
+}
+.titulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: rgb(50, 50, 92);
+    text-shadow: 0.1em 0.1em 0.2em rgb(187, 185, 185);
+}
+.lugar{
+    display: flex;
+}
+.lugar img{
+    width: 350px;
+    height: 350px;
+}
+.lugar p{
+margin-left: 5%;
+font-size: 18px;
+    
+}
+#lugarj{
+    display: flex;
+}
+#lugarj img{
+    width: 450px;
+    height: 300px;
+}
+#lugarj p{
+    font-size: 18px;
+}
